@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="fragments/header :: header">
+<meta charset="utf-8" />
+</head>
+<head><title>IGH Web</title></head>
+<body class="hold-transition skin-blue-light sidebar-mini sidebar-collapse">
+
+<div class="wrapper">
+
+<!-- Importa o menu de navegação -->
+<div th:replace="fragments/nav :: nav"></div>
+  <div class="content-wrapper">
+    <section class="content-header">
+      <h1>
+        Página Inicial
+      </h1>
+    </section>
+  </div>
+
+ <!-- Importa o footer com os js -->
+ <div th:replace="fragments/footer :: footer"></div>
+
+  <div class="control-sidebar-bg"></div>
+</div>
+
+</body>
+</html>

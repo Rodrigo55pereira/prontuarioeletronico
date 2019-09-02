@@ -1,0 +1,13 @@
+.navbar-brand{
+	padding-top: 5px;
+}
+
+.panel-default{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.navbar{
+	border-radius:0px!important;
+	background-color:#87CEEB!important;
+}
